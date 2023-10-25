@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;   
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* hover en los links underline lento y cambio de color en la fuente*/
+a:hover {
+    color: #60b2ff;
+    transition: 0.3s;
+}
+
+/* en la section con el id inicio los textos en medio de la altura de la pantalla*/
+section {
+    border: #60b2ff 1px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
