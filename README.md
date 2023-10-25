@@ -1,0 +1,2 @@
+# MindFulLife
+Landing page 
