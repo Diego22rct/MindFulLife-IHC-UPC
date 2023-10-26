@@ -7,20 +7,27 @@ html {
     margin: 0;
 }
 header {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    background-color: #61A8EF;
+    padding: 4px 15px;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.3s; /* Efecto de transición suave */
 }
-
+header.active {
+    background-color: #ffffff;
+}
 nav ul {
     display: flex;
     list-style: none;   
     justify-content: space-between;
+    align-items: center; /* Alinea los elementos al centro verticalmente */
+    
 }
+
 a {
     text-decoration: none;
     color: black;
-}
+}   
 
 /* hover en los links underline lento y cambio de color en la fuente*/
 a:hover {
@@ -28,13 +35,31 @@ a:hover {
     transition: 0.3s;
 }
 
+
 /* en la section con el id inicio los textos en medio de la altura de la pantalla*/
 section {
-    border: #60b2ff 1px solid;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: #61A8EF 1px solid;
+}
+
+
+
+.card { 
+    background-color: #B2DFDB;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -43,4 +68,138 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button {
+    background-color: #61A8EF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.large_text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.card_plan {
+    background-color: #B2DFDB;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_plan button {
+    background-color: #3d9eff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card_plan button:hover {
+    background-color: #60b2ff;
+}
+
+.form_colsultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_colsultas form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_colsultas input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #61A8EF;
+    width: 300px;
+}
+
+.form_colsultas textarea {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #61A8EF;
+    width: 300px;
+}
+
+.form_colsultas button {
+    background-color: #3d9eff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form_colsultas button:hover {
+    background-color: #60b2ff;
+}
+.container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.download-button {
+    background-color: #61A8EF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.app_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#app {
+    flex-direction: column;
 }

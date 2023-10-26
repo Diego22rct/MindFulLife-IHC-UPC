@@ -10,22 +10,24 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#"><img src="images/ic_zentech.png" width="70"></a></li>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">App</a></li>
-                <li><a href="#">Planes</a></li>
-                <li><a href="#">Contactanos</a></li>
+                <li><a href="/"><img src="images/ic_zentech.png" width="70" alt="Zentech Logo"></a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#app">App</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#contactanos">Contactanos</a></li>
             </ul>
-        </nav>
+        </nav>        
     </header>
-    <section id="incio">
+    <section id="inicio">
+        
         <div class="container">
             <div class="container__text">
                 <h1>Tu camino hacia la plenitud</h1>
                 <p>Nos comprometemos a ayudarte</p>
             </div>
+            <img src="images/im_4.png" width="" alt="">
         </div>
     </section>
     <section id="servicios">
@@ -33,26 +35,70 @@
             <div class="container__text">
                 <h1>Servicios</h1>
             </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/im_serv_1.png" alt="">
+                    <p>Atencion con un psicologio profesional</p>
+                    <button>Leer más</button>
+                </div>
+                <div class="card">
+                    <img src="images/im_serv_2.png" alt="">
+                    <p>Chats con inteligencia artifical </p>
+                    <button>Leer más</button>
+                </div>
+            </div>
         </div>
     </section>
     <section id="nosotros">
         <div class="container">
-            <div class="container__text">
-                <h1>Nosotros</h1>
+            <h1>Nosotros</h1>
+            <img src="images/im_nos_1.png" alt="" srcset="">
+            <div class="large_text">
+                <p>Somos una organización dedicada al desarrollo de productos que guían a las personas en el camino del mindfulness. Nuestra misión es ayudar a las personas a cultivar la conciencia en el presente sin juicios, lo que mejora la efectividad en sus actividades diarias y contribuye a una mejor salud mental al reducir el estrés.</p>
             </div>
         </div>
     </section>
     <section id="app">
-        <div class="container">
+        <div class="container_app">
+                <img class="app_images" src="images/im_app_1.png" alt="">
             <div class="container__text">
                 <h1>Descarga la App</h1>
+                <p>¡Obtén nuestra increíble aplicación para experimentar la plenitud en cualquier lugar y en cualquier momento!</p>
             </div>
+            <img class="app_images" src="images/im_app_2.png" alt="">
         </div>
+        <a href="enlace_a_la_tienda_de_apps" class="download-button">Descargar la App</a>
     </section>
     <section id="planes">
         <div class="container">
-            <div class="container__text">
-                <h1>Planes para ti</h1>
+            <h1>Planes para ti</h1>
+            <div>
+                <div class="cards">
+                    <div class="card_plan">
+                        <div class="card_plan_head">
+                            <h2>Plan gratuito</h2>
+                        </div>
+                        <img src="images/im_plan_card_1.png" alt="">
+                        <ul>
+                            <li>Acceso a rutinas personalizadas</li>
+                            <li>Temporizador de rutias</li>
+                            <li>acceso a chat con inteligencia artifical</li>
+                        </ul>
+                        <button>Ya lo tienes</button>
+                    </div>
+                    <div class="card_plan">
+                        <div class="card_plan_head">
+                            <h2>Plan Premium</h2>
+                        </div>
+                        <img src="images/im_plan_card_2.png" alt="">
+                        <ul>
+                            <li>Rutinas exclusivas</li>
+                            <li>acceso a citas con psicologos certificados</li>
+                            <li>Todo del plan gratuito y más</li>
+                        </ul>
+                        <button id="btn_obetener">Obetenerlo</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -60,6 +106,30 @@
         <div class="container">
             <div class="container__text">
                 <h1>Contactanos</h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/ic_whatsapp.png" width="150" alt="">
+                    <p>Whatsapp</p>
+                    <button>Escribenos</button>
+                </div>
+                <div class="card">
+                    <img src="images/ic_instagram.png" width="150" alt="">
+                    <p>Instagram</p>
+                    <button>Visitanos</button>
+                </div>
+                <div class="card">
+                    <img src="images/ic_facebook.png" width="150" alt="">
+                    <p>Facebook</p>
+                    <button>Visitanos</button>
+            </div>
+            <div class="form_colsultas">
+                <form action="">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Correo">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar</button>
+                </form>
             </div>
         </div>
     </section>
