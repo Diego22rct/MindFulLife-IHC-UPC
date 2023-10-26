@@ -1,65 +1,71 @@
-html {
+:root{
+    color: black;
     font-family: sans-serif;
-    font-size: 16px;
+    scroll-behavior: smooth
 }
 * {
     padding: 0;
     margin: 0;
 }
-header {
-    background-color: #61A8EF;
-    padding: 4px 15px;
-    position: sticky;
-    top: 0;
-    transition: background-color 0.3s; /* Efecto de transición suave */
-}
-header.active {
-    background-color: #ffffff;
-}
-nav ul {
+.flex{
     display: flex;
-    list-style: none;   
-    justify-content: space-between;
-    align-items: center; /* Alinea los elementos al centro verticalmente */
-    
+}
+#navBar{
+    justify-content: space-around;
+    background-color: #61A8EF;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
-a {
+a{
+    color: white;
     text-decoration: none;
-    color: black;
-}   
+}
 
-/* hover en los links underline lento y cambio de color en la fuente*/
-a:hover {
-    color: #6243bf;
+.planinfo{
+    padding: 1em 1em 1em 1em;
+    font-size: 1rem;
+}
+
+.options{
+    justify-content: space-between;
+}
+.option{
+    border-radius: 1rem;
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin: 0 0 0 0;
+    padding: 1rem 0 0 0;
+    /*border-left: 1px solid honeydew;
+    border-right: 1px solid honeydew;*/
+    text-align: center;
+}
+.first{
+    border-left: 0px solid honeydew;
+}
+.last{
+    border-right: 0px solid honeydew;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: rgb(130, 195, 255);
     transition: 0.3s;
 }
-
-
-/* en la section con el id inicio los textos en medio de la altura de la pantalla*/
+#navBar img{
+    height: 7.8vh;
+    margin: 0 4vw 0 0;
+}
 section {
+    border: #60b2ff 1px solid;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: #61A8EF 1px solid;
-}
-
-
-
-.card { 
-    background-color: #B2DFDB;
-    border-radius: 7px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px;
-    margin: 20px;
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 
 .container {
@@ -70,6 +76,20 @@ section {
     align-items: center;
 }
 
+.card { 
+    background-color: #B2DFDB;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 1.25rem;
+    margin: 1.25rem;
+    width: 13vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -83,77 +103,37 @@ section {
     border-radius: 5px;
     padding: 10px 20px;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .large_text {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
     width: 60%;
 }
 
-.card_plan {
-    background-color: #B2DFDB;
-    border-radius: 7px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px;
-    margin: 20px;
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card_plan button {
-    background-color: #3d9eff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.card_plan button:hover {
+.card button:hover {
     background-color: #60b2ff;
 }
 
-.form_colsultas {
+.form_consultas form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.form_colsultas form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form_colsultas input {
-    margin: 10px;
+.form_consultas input, .form_consultas textarea{
+    margin: 7px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #61A8EF;
-    width: 300px;
+    width: 13vw;
 }
 
-.form_colsultas textarea {
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #61A8EF;
-    width: 300px;
-}
-
-.form_colsultas button {
+.form_consultas button {
     background-color: #3d9eff;
     border: none;
     border-radius: 5px;
@@ -164,7 +144,7 @@ section {
     transition: background-color 0.3s;
 }
 
-.form_colsultas button:hover {
+.form_consultas button:hover {
     background-color: #60b2ff;
 }
 .container__text {
