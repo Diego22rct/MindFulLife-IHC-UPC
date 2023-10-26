@@ -31,7 +31,7 @@ a {
 
 /* hover en los links underline lento y cambio de color en la fuente*/
 a:hover {
-    color: #60b2ff;
+    color: #6243bf;
     transition: 0.3s;
 }
 
