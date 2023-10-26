@@ -26,8 +26,9 @@ a{
     text-decoration: none;
 }
 .planinfo{
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 0.7em 1em;
     font-size: 1.1em;
+    line-height: 1.2em;
 }
 
 .options{
