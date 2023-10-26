@@ -102,6 +102,15 @@ section {
     align-items: center;
 }
 
+#nosotros h1{
+    margin-bottom: 3rem;
+}
+
+#nosotros img{
+    margin-bottom: 4rem;
+}
+
+
 .card button {
     background-color: #61A8EF;
     border: none;
@@ -117,6 +126,9 @@ section {
     font-size: 1.25rem;
     margin-bottom: 1.25rem;
     width: 60%;
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 2rem;
 }
 
 .card button:hover {
