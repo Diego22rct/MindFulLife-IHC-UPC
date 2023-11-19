@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindFulLife - Landing Page</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="loginStyle.css">
 </head>
 <body> 
     <header>
@@ -17,11 +18,63 @@
                 <a href="#nosotros"><div class="option">Nosotros</div></a>
                 <a href="#app"><div class="option">App</div></a>
                 <a href="#planes"><div class="option">Planes</div></a>
-                <a href="#contactanos"><div class="option last">Contactanos</div></a>
+                <a href="#contactanos"><div class="option">Planes</div></a>
+                <div class="option last" id="sesion" onclick="abrirLogin()">Iniciar sesión</div>
             </div>
         </div>
         </nav>
     </header>
+    <div id="loginOverlay" class="overlay">
+        <div class="container-overlay" id="container-overlay">
+            <div class="form-container registro">
+                <form>
+                    <h1>Crea una cuenta</h1>
+                    <div class="iconos">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>o usa tu email para el registro</span>
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Crear cuenta</button>
+                </form>
+            </div>
+            <div class="form-container login">
+                <form>
+                    <h1>Ingresa</h1>
+                    <div class="iconos">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>o usa tu correo y contraseña</span>
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña">
+                    <a href="#">Olvidaste tu contraseña?</a>
+                    <button>Iniciar sesión</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Bienvenido de vuelta!</h1>
+                        <p>Ingresa tus datos para obtener el acceso completo</p>
+                        <button class="hidden" id="login">Ingresar</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Hola!</h1>
+                        <p>Registrate para obtener el acceso completo <br> a todas las funcionalidades</p>
+                        <button class="hidden" id="registro">Registrate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section id="inicio">
         <div class="container">
             <h1>Tu camino hacia la plenitud</h1>
@@ -130,4 +183,5 @@
     </footer>
 </body>
 <script src="main.js"></script>
+<script src="loginScript.js"></script>
 </html>
