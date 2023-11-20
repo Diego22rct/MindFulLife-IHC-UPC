@@ -11,6 +11,20 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+#closeBtn{
+    color:  rgb(255, 255, 255);
+    transition: color 1s;
+}
+
+.container-overlay .btnClose{
+    position: absolute;
+    font-size: 3em;
+    z-index: 1000;
+    left: 93%;
+    top: 3%;
+    cursor: pointer;
+}
+
 .container-overlay{
     background-color: #fff;
     border-radius: 30px;
@@ -146,7 +160,7 @@
     overflow: hidden;
     transition: all 0.6s ease-in-out;
     border-radius: 150px 0 0 100px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .container-overlay.activo .toggle-container{
