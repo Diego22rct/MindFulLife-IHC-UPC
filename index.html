@@ -6,19 +6,20 @@
     <title>MindFulLife - Landing Page</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="loginStyle.css">
+    <link rel="stylesheet" href="animations.css">
 </head>
 <body> 
     <header>
         <nav>
-        <div id='navBar'class="flex">
+        <div id='navBar' class="flex">
+            <img class="logo"src="images/ic_zentech.png">
             <div class="flex options">
-                <img class="logo"src="images/ic_zentech.png">
                 <a href="#inicio"><div class="option first">Inicio</div></a>
                 <a href="#servicios"><div class="option">Servicios</div></a>
                 <a href="#nosotros"><div class="option">Nosotros</div></a>
                 <a href="#app"><div class="option">App</div></a>
                 <a href="#planes"><div class="option">Planes</div></a>
-                <a href="#contactanos"><div class="option">Planes</div></a>
+                <a href="#contactanos"><div class="option">Contactanos</div></a>
                 <div class="option last" id="sesion" onclick="abrirLogin()">Iniciar sesión</div>
             </div>
         </div>
@@ -75,7 +76,9 @@
             </div>
         </div>
     </div>
-
+    <div>
+        
+    </div>
     <section id="inicio">
         <div class="container">
             <h1>Tu camino hacia la plenitud</h1>
@@ -85,14 +88,14 @@
     </section>
     <section id="servicios">
         <div class="container">
-            <h1 class="title">Servicios</h1>
+            <h1 class="title hide">Servicios</h1>
             <div class="cards">
-                <div class="card">
+                <div class="card hide left">
                     <img src="images/im_serv_1.png" alt="">
-                    <p>Atencion con un psicologio profesional</p>
+                    <p>Atencion con un psicólogo profesional</p>
                     <button>Leer más</button>
                 </div>
-                <div class="card">
+                <div class="card hide right">
                     <img src="images/im_serv_2.png" alt="">
                     <p>Chats con inteligencia artifical </p>
                     <button>Leer más</button>
@@ -102,30 +105,30 @@
     </section>
     <section id="nosotros">
         <div class="container">
-            <h1 class="title">Nosotros</h1>
-            <img src="images/im_nos_1.png" alt="" srcset="">
-            <div class="large_text">
+            <h1 class="title hide">Nosotros</h1>
+            <img class="hide bottom" src="images/im_nos_1.png" alt="" srcset="">
+            <div class="large_text hide">
                 <p>Somos una organización dedicada al desarrollo de productos que guían a las personas en el camino del mindfulness. Nuestra misión es ayudar a las personas a cultivar la conciencia en el presente sin juicios, lo que mejora la efectividad en sus actividades diarias y contribuye a una mejor salud mental al reducir el estrés.</p>
             </div>
         </div>
     </section>
     <section id="app">
         <div class="container_app">
-                <img class="app_images" src="images/im_app_1.png" alt="">
-            <div class="container_text">
+                <img class="app_images hide left" src="images/im_app_1.png" alt="">
+            <div class="container_text hide">
                 <h1>Descarga la App</h1>
                 <p>¡Obtén nuestra increíble aplicación para experimentar la plenitud en cualquier lugar y en cualquier momento!</p>
             </div>
-            <img class="app_images" src="images/im_app_2.png" alt="">
+            <img class="app_images hide right" src="images/im_app_2.png" alt="">
         </div>
         <a href="enlace_a_la_tienda_de_apps" class="download-button">Descargar la App</a>
     </section>
     <section id="planes">
         <div class="container">
-            <h1 class="title">Planes para ti</h1>
+            <h1 class="title hide">Planes para ti</h1>
             <div>
                 <div class="cards">
-                    <div class="card plan">
+                    <div class="card plan hide left">
                         <div class="card_plan_head">
                             <h2>Plan gratuito</h2>
                         </div>
@@ -135,7 +138,7 @@
                         </div>
                         <button>Ya lo tienes</button>
                     </div>
-                    <div class="card plan">
+                    <div class="card plan hide right">
                         <div class="card_plan_head">
                             <h2>Plan Premium</h2>
                         </div>
@@ -152,24 +155,24 @@
     </section>
     <section id="contactanos">
         <div class="container">
-            <h1 class="title">Contactanos</h1>
+            <h1 class="title hide">Contactanos</h1>
             <div class="cards">
-                <div class="card contacto">
+                <div class="card contacto hide left">
                     <img src="images/ic_whatsapp.png" width="150" alt="">
                     <p>Whatsapp</p>
                     <button>Escribenos</button>
                 </div>
-                <div class="card contacto">
+                <div class="card contacto hide left">
                     <img src="images/ic_instagram.png" width="150" alt="">
                     <p>Instagram</p>
                     <button>Visitanos</button>
                 </div>
-                <div class="card contacto">
+                <div class="card contacto hide left">
                     <img src="images/ic_facebook.png" width="150" alt="">
                     <p class="media">Facebook</p>
                     <button>Visitanos</button>
             </div>
-            <div class="form_consultas">
+            <div class="form_consultas hide right">
                 <form action="">
                     <input type="text" placeholder="Nombre">
                     <input type="text" placeholder="Correo">
@@ -183,6 +186,6 @@
         Todos los derechos reservados.
     </footer>
 </body>
-<script src="main.js"></script>
-<script src="loginScript.js"></script>
+<script defer src="main.js"></script>
+<script defer src="loginScript.js"></script>
 </html>
