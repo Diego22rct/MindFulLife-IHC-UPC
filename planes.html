@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindFulLife - Landing Page</title>
+    <title>MindFulLife - Planes</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="loginStyle.css">
     <link rel="stylesheet" href="animations.css">
 </head>
-<body> 
+<body>
     <header>
         <nav>
         <div id='navBar' class="flex">
             <img class="logo"src="images/ic_zentech.png">
             <div class="flex options">
-                <a href=""><div class="option first">Inicio</div></a>
+                <a href="index.html"><div class="option first">Inicio</div></a>
                 <a href="servicios.html"><div class="option">Servicios</div></a>
                 <a href="nosotros.html"><div class="option">Nosotros</div></a>
                 <a href="app.html"><div class="option">App</div></a>
-                <a href="planes.html"><div class="option">Planes</div></a>
+                <a href=""><div class="option">Planes</div></a>
                 <a href="contacto.html"><div class="option">Contactanos</div></a>
                 <div class="option last" id="sesion" onclick="abrirLogin()">Iniciar sesión</div>
             </div>
@@ -76,16 +76,36 @@
             </div>
         </div>
     </div>
-    <section id="inicio">
+    <section id="planes">
         <div class="container">
-            <h1>Tu camino hacia la plenitud</h1>
-            <p>Nos comprometemos a ayudarte</p>
-            <img src="images/im_4.png" width="" alt="">
+            <h1 class="title hide">Planes para ti</h1>
+            <div>
+                <div class="cards">
+                    <div class="card plan hide left">
+                        <div class="card_plan_head">
+                            <h2>Plan gratuito</h2>
+                        </div>
+                        <img src="images/im_plan_card_1.png" alt="">
+                        <div class="planinfo">
+                            <p>Acceso a rutinas personalizadas, temporizador para ellas y acceso a un chat con nuestra inteligencia artificial.</p>
+                        </div>
+                        <button>Ya lo tienes</button>
+                    </div>
+                    <div class="card plan hide right">
+                        <div class="card_plan_head">
+                            <h2>Plan Premium</h2>
+                        </div>
+                        <img src="images/im_plan_card_2.png" alt="">
+                        <div class="planinfo">
+                            <p>Rutinas exclusivas y acceso a citas con psicólogos certificados.
+                             Todas las funcionalidades del plan gratuito y más.</p>
+                        </div>
+                        <button id="btn_obetener">Obtenerlo</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <footer>
-        Todos los derechos reservados.
-    </footer>
 </body>
 <script defer src="main.js"></script>
 <script defer src="loginScript.js"></script>

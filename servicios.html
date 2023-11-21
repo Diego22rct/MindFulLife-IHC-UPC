@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MindFulLife - Landing Page</title>
+    <title>MindFulLife - Servicios</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="loginStyle.css">
     <link rel="stylesheet" href="animations.css">
 </head>
-<body> 
+<body>
     <header>
         <nav>
         <div id='navBar' class="flex">
             <img class="logo"src="images/ic_zentech.png">
             <div class="flex options">
-                <a href=""><div class="option first">Inicio</div></a>
-                <a href="servicios.html"><div class="option">Servicios</div></a>
+                <a href="index.html"><div class="option first">Inicio</div></a>
+                <a href=""><div class="option">Servicios</div></a>
                 <a href="nosotros.html"><div class="option">Nosotros</div></a>
                 <a href="app.html"><div class="option">App</div></a>
                 <a href="planes.html"><div class="option">Planes</div></a>
@@ -76,16 +76,23 @@
             </div>
         </div>
     </div>
-    <section id="inicio">
+    <section id="servicios">
         <div class="container">
-            <h1>Tu camino hacia la plenitud</h1>
-            <p>Nos comprometemos a ayudarte</p>
-            <img src="images/im_4.png" width="" alt="">
+            <h1 class="title hide">Servicios</h1>
+            <div class="cards">
+                <div class="card hide left">
+                    <img src="images/im_serv_1.png" alt="">
+                    <p>Atencion con un psicólogo profesional</p>
+                    <button>Leer más</button>
+                </div>
+                <div class="card hide right">
+                    <img src="images/im_serv_2.png" alt="">
+                    <p>Chats con inteligencia artifical </p>
+                    <button>Leer más</button>
+                </div>
+            </div>
         </div>
     </section>
-    <footer>
-        Todos los derechos reservados.
-    </footer>
 </body>
 <script defer src="main.js"></script>
 <script defer src="loginScript.js"></script>

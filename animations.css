@@ -1,0 +1,45 @@
+.hide{
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 0;
+}
+
+.hide.left{
+    transform: translateX(-100%);
+}
+.hide.right{
+    transform: translateX(100%);
+}
+
+.hide.bottom{
+    transform: translateY(50%)
+}
+
+.mostrar{
+    opacity: 1;
+    transition: all 1s;
+    filter: blur(0);
+    z-index: 0;
+}
+
+.mostrar.right{
+    transform:translateX(0);
+    
+}
+.mostrar.left{
+    transform:translateX(0);
+}
+.mostrar.bottom{
+    transform:translateY(0)
+}
+
+.card.contacto:nth-child(2){
+    transition-delay: 200ms;
+}
+.card.contacto:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.form_consultas{
+    transition-delay: 1000ms;
+}
