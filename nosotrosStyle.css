@@ -96,26 +96,23 @@ iframe {
     margin-bottom: 0.5rem;
 }
 
+.team-member .container {
+   text-align: flex;
+}
+
 .team-member-description {
     text-align: center;
 }
 
 
+#Metodologia .table {
+    width: 150%;
+    background-color: #bccfe1;
+    border: #22415e;
+    margin-top: 2rem;
 
-#Metodologia .container {
-    padding: 2rem;
 }
 
-#Metodologia .metodologia-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-#Metodologia .metodologia-left,
-#Metodologia .metodologia-right {
-    width: 48%; /* Ajusta el ancho según tus necesidades */
-}
 
 #Metodologia h4 {
     margin-bottom: 1rem;
@@ -136,26 +133,6 @@ iframe {
     font-family: sans-serif;
 }
 
-#Metodologia table {
-    width: 100%;
-    background-color: #d4e1ee;
-    border-collapse: collapse;
-    font-family: 'Rubik';
-    margin-top: 2rem;
-}
 
-#Metodologia td {
-    padding: 1rem;
-    border: 1px solid #61A8EF;
-}
-
-/* Estilos para las imágenes a los lados */
-.metodologia-left img,
-.metodologia-right img {
-    width: 100%;
-    max-width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
-    height: auto;
-    margin-bottom: 1rem;
-}
 
 
