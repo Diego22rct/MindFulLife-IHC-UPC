@@ -10,7 +10,7 @@ Ser una organización que constantemente mejore su producto para ayudar a una ma
 ## Descripción de la App
 ZenTech es tu aliado esencial para llevar un estilo de vida saludable y consciente, dirigido tanto a estudiantes universitarios como a padres de familia. Nuestra plataforma, disponible tanto en la web como en una aplicación móvil, se adapta a tus necesidades específicas en tu caótico mundo. 
 
-## Desarolladores 
+## Desarrolladores 
 
 - JHERSON DAVID
 - MIGUEL ÁNGEL
