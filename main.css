@@ -98,8 +98,7 @@ section {
     margin: 1.25rem;
     width: 13vw;
     font-size: 0.9vw;
-    height:20vw;
-    
+    min-height: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -238,11 +237,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;  
+    height: 100vh;  
     width: auto;
     text-align: center;
     overflow:hidden;
     border: #3d9eff 1px solid;
+}
+#features .feature p {
+    width: 30vw;
+}
+#features .feature img {
+    width: 15vw;
+    height: auto;
 }
 
 .button_contact {
@@ -253,4 +259,8 @@ section {
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
+
+section .container {
+    flex-wrap: wrap;
 }
