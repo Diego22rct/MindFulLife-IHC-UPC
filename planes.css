@@ -79,4 +79,13 @@
     height: 23vw;
 }
 
+.card.plan:nth-child(2){
+    transition-delay: 200ms;
+}
+.card.plan:nth-child(3){
+    transition-delay: 400ms;
+}
+.card.plan:nth-child(4){
+    transition-delay: 600ms;
+}
 
