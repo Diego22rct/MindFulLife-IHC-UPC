@@ -98,8 +98,7 @@ section {
     margin: 1.25rem;
     width: 13vw;
     font-size: 0.9vw;
-    height:20vw;
-    
+    min-height: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
