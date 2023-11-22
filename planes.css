@@ -90,3 +90,12 @@
 .card.plan:nth-child(4){
     transition-delay: 600ms;
 }
+@media (width<=900px) {
+    .cards{
+        flex-direction: column;
+    }
+}
+ul{
+    list-style-type: disc;
+    list-style-image: url('assets\images\ic_svg\check-solid.svg');
+}

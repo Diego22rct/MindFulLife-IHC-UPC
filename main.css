@@ -126,6 +126,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 
 .container_text h1{
