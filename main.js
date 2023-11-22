@@ -1,6 +1,13 @@
 function abrirLogin(){
     document.getElementById("loginOverlay").style.display="flex";
 }
+
+function abrirLogin2(){
+    document.getElementById("loginOverlay").style.display="flex";
+    container.classList.add("activo");
+    closeBtn.style.color="black";
+}
+
 function cerrarLogin(){
     document.getElementById("loginOverlay").style.display="none";
 }

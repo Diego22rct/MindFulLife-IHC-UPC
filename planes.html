@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="loginStyle.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="planes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -77,36 +79,87 @@
             </div>
         </div>
     </div>
-    <section id="planes">
-        <div class="container">
-            <h1 class="title hide">Planes para ti</h1>
-            <div>
-                <div class="cards">
-                    <div class="card plan hide left">
-                        <div class="card_plan_head">
-                            <h2>Plan gratuito</h2>
-                        </div>
-                        <img src="images/im_plan_card_1.png" alt="">
-                        <div class="planinfo">
-                            <p>Acceso a rutinas personalizadas, temporizador para ellas y acceso a un chat con nuestra inteligencia artificial.</p>
-                        </div>
-                        <button>Ya lo tienes</button>
+    <div class="seccion">
+        <h1 class="hide">Inicia tu vida Mindfulness con nosotros</h1>
+        <h2 class="hide secondary"> Completamente gratis, solo registrate</h2>
+        <h3>Sin necesidad de pago, tan solo un click.</h3>
+        <button onclick="abrirLogin2()" id="getStarted">Registrate <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+    </div>
+    <div class="seccion planes">
+        <h2 class="title hide">Estos son los planes que tenemos para ti</h2>
+        <div>
+            <div class="cards">
+                <div class="card plan hide left">
+                    <div class="card_plan_head">
+                        <h2>Básico</h2>
                     </div>
-                    <div class="card plan hide right">
-                        <div class="card_plan_head">
-                            <h2>Plan Premium</h2>
-                        </div>
-                        <img src="images/im_plan_card_2.png" alt="">
-                        <div class="planinfo">
-                            <p>Rutinas exclusivas y acceso a citas con psicólogos certificados.
-                             Todas las funcionalidades del plan gratuito y más.</p>
-                        </div>
-                        <button id="btn_obetener">Obtenerlo</button>
+                    <div class="precio">
+                        <div class="valor">$0</div><div class="extra">Gratis <br> por siempre</div>
                     </div>
+                    <div class="planinfo">
+                        <ul>
+                            <li>Rutinas de ejercicios</li>
+                            <li>Sesiones de meditación</li>
+
+                        </ul>
+                    </div>
+                    <button>Ya lo tienes</button>
+                </div>
+
+                <div class="card plan hide left">
+                    <div class="card_plan_head">
+                        <h2>Premium</h2>
+                    </div>
+                    <div class="precio">
+                        <div class="valor">$0</div><div class="extra">Gratis <br> por siempre</div>
+                    </div>
+                    <div class="planinfo">
+                        <ul>
+                            <li>Rutinas de ejercicios</li>
+                            <li>Sesiones de meditación</li>
+
+                        </ul>
+                    </div>
+                    <button>Ya lo tienes</button>
+                </div>
+
+                <div class="card plan hide left">
+                    <div class="card_plan_head">
+                        <h2>Familiar Básico</h2>
+                    </div>
+                    <div class="precio">
+                        <div class="valor">$0</div><div class="extra">Gratis <br> por siempre</div>
+                    </div>
+                    <div class="planinfo">
+                        <ul>
+                            <li>Rutinas de ejercicios</li>
+                            <li>Sesiones de meditación</li>
+
+                        </ul>
+                    </div>
+                    <button>Ya lo tienes</button>
+                </div>
+
+                <div class="card plan hide left">
+                    <div class="card_plan_head">
+                        <h2>Familiar Premium</h2>
+                    </div>
+                    <div class="precio">
+                        <div class="valor">$0</div><div class="extra">Gratis <br> por siempre</div>
+                    </div>
+                    <div class="planinfo">
+                        <ul>
+                            <li>Rutinas de ejercicios</li>
+                            <li>Sesiones de meditación</li>
+
+                        </ul>
+                    </div>
+                    <button>Ya lo tienes</button>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    
     <footer class="footer">
         <div class="container-footer">
             <div class="row">

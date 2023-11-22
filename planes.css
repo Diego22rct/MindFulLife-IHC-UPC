@@ -1,0 +1,72 @@
+.seccion{
+    text-align: center;
+    margin-top: 15vh;
+    line-height: 3rem;
+    z-index: 0;
+}
+
+.seccion button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #61A8EF;
+    border-radius: 30px;
+    border: none;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    cursor: pointer;
+}
+
+.seccion h1{
+    font-size: 3rem;
+}
+
+.seccion h2{
+    font-size:2rem
+}
+
+.seccion.planes{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.seccion h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.secondary{
+    margin-top: 2rem;
+}
+
+.planes h2{
+    margin-bottom: 1rem;
+}
+.precio{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: normal;
+}
+.valor{
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 0.6rem;
+    width: 40%;
+
+}
+.extra{
+    text-align: left;
+    padding-top: 0.8rem;
+    width: 60%;
+    font-size: 0.9rem;
+}
+.planinfo{
+    margin-top: -2.5rem;
+}
+.card_plan_head{
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+}
+
