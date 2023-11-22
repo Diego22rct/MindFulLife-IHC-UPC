@@ -102,42 +102,25 @@ iframe {
 
 
 
-#Metodologia container {
-
-    position: center;
- 
-}
-#Metodologia table {
-    width:100%;
-    height: fit-content;
-    background-color: #d4e1ee;
-    border-collapse: collapse;
-    font-family: 'Rubik';
-    text-size-adjust:inherit;
-    margin-top: 2rem;
+#Metodologia .container {
+    padding: 2rem;
 }
 
-#Metodologia td {
-    padding: 1rem;
-    border: 1px solid #61A8EF;
-
- 
+#Metodologia .metodologia-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-#Metodologia h5 {
-    margin-bottom: 1rem;
-    
+#Metodologia .metodologia-left,
+#Metodologia .metodologia-right {
+    width: 48%; /* Ajusta el ancho según tus necesidades */
 }
 
-#Metodologia li {
+#Metodologia h4 {
     margin-bottom: 1rem;
 }
-#Metodologia p {
-    margin-bottom: 1rem;
-    font-family: sans-serif;
-    text-size-adjust: 1;
-    
-}
+
 #Metodologia ul {
     list-style-type: none;
     padding: 0;
@@ -146,6 +129,33 @@ iframe {
 
 #Metodologia li {
     margin-bottom: 0.5rem;
+}
+
+#Metodologia p {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+#Metodologia table {
+    width: 100%;
+    background-color: #d4e1ee;
+    border-collapse: collapse;
+    font-family: 'Rubik';
+    margin-top: 2rem;
+}
+
+#Metodologia td {
+    padding: 1rem;
+    border: 1px solid #61A8EF;
+}
+
+/* Estilos para las imágenes a los lados */
+.metodologia-left img,
+.metodologia-right img {
+    width: 100%;
+    max-width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 
