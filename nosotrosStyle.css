@@ -1,15 +1,15 @@
 /* Estilos para la sección "Nosotros" */
 #nosotros {
-   background-image: url(https://i.etsystatic.com/11479132/r/il/bd55f8/1475491587/il_fullxfull.1475491587_3u2h.jpg);
+  
     padding: 2rem;
 }
 #modeloTrabajo {
-    background-image: url(https://i.etsystatic.com/11479132/r/il/bd55f8/1475491587/il_fullxfull.1475491587_3u2h.jpg);
+
      padding: 2rem;
  }
  
 #Metodologia {
-    background-image: url(https://i.etsystatic.com/11479132/r/il/bd55f8/1475491587/il_fullxfull.1475491587_3u2h.jpg);
+   
      padding: 2rem;
  }
 
@@ -91,6 +91,7 @@ iframe {
 
 .team-image {
     width: 150px;
+    height: 220px;
     border-radius: 50%;
     margin-bottom: 0.5rem;
 }
