@@ -88,7 +88,7 @@
             </div>
             <img class="app_images hide right" src="images/im_app_2.png" alt="">
         </div>
-        <a href="#" class="download-button mostrar">Descargar ya</a>
+        <a href="#encSigPlat" class="download-button mostrar">Descargar ya</a>
     </section>
 
     <div id="features">
@@ -109,19 +109,19 @@
             <div class="feature hide bottom">
                 <img src="images/im_app_5.png" height="200" alt="Captura de pantalla 3">
                 <div class="textbox">
-                    <h3>Guarda tus sesiones favoritas</h3>
-                    <p>Puedes guardar todas tus sesiónes<br> favoritas y aceder a ellas e cualquier momento</p>
+                    <h3>Guarda tus sesiones<br>favoritas</h3>
+                    <p>Puedes guardar todas tus sesiones<br>favoritas y aceder a ellas en cualquier momento</p>
                 </div>
             </div>
     </div>
 
-    <section>
+    <section id="encSigPlat">
         <div id="encontrarApp">
             <h1>Encuentrala en las siguientes plataformas:</h1>
             <div class="app_images hide bottom">
-                <img src="images/appstore.png" width="12%" alt="App Store">
-                <img src="images/googlePlay.png" width="10%" alt="Google Play">
-                <img src="images/huawei.png" width="12%" alt="Huawei">
+                <img id="appleStoreIcon" src="images/appstore.png" width="12%" alt="App Store">
+                <img id="googlePlayIcon" src="images/googlePlay.png" width="10%" alt="Google Play">
+                <img id="HuaweiPlayIcon" src="images/huawei.png" width="12%" alt="Huawei">
             </div>
         </div>
     </section>
@@ -160,6 +160,17 @@
 </body>
 <script defer src="main.js"></script>
 <script defer src="loginScript.js"></script>
+<script type="text/javascript">
+    document.getElementById("appleStoreIcon").addEventListener('click', () => {
+        location.href = "https://www.apple.com/la/app-store/";
+    });
+    document.getElementById("googlePlayIcon").addEventListener('click', () => {
+        location.href = "https://play.google.com/store/games?hl=es_PE&gl=US";
+    });
+    document.getElementById("HuaweiPlayIcon").addEventListener('click', () => {
+        location.href = "https://consumer.huawei.com/pe/mobileservices/appgallery/?f=0&tduid=968cb1bd5995971f73d2331a45983c47&cid=420008&utm_medium=affiliate&utm_source=tradedoubler";
+    });
+</script>
 </html>
 
 
