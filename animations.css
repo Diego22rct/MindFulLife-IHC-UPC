@@ -17,7 +17,7 @@
 
 .mostrar{
     opacity: 1;
-    transition: all 1s;
+    transition: all 0.5s;
     filter: blur(0);
     z-index: 0;
 }
@@ -41,5 +41,13 @@
 }
 
 .form_consultas{
-    transition-delay: 1000ms;
+    transition-delay: 600ms;
+}
+
+button{
+    transition: all 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
 }

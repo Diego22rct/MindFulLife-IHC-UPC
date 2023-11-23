@@ -1,0 +1,13 @@
+#inicio .container{
+    flex-direction: row;
+}
+
+.imageDivIndex{
+    position: relative;
+    left: 12%;
+}
+
+.imgIni{
+    width: 60%;
+    filter:drop-shadow(-3px 0px 3px grey);
+}
