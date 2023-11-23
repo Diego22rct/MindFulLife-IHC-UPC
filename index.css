@@ -11,3 +11,40 @@
     width: 60%;
     filter:drop-shadow(-3px 0px 3px grey);
 }
+
+.textInicio{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.textInicio h1{
+    font-size: 2.5rem;
+    position: relative;
+    top: -3%;
+}
+
+.textInicio p{
+    position: relative;
+    top: -2%;
+    font-size: 2rem;
+}
+
+#todoAqui{
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #61A8EF;
+    border-radius: 30px;
+    border: none;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    cursor: pointer;
+    top: 1%;
+}
+
+#todoAqui:hover{
+
+}
