@@ -2,6 +2,7 @@
 
 
 // Ejemplo:
+/*
 const nosotrosOption = document.querySelector('#navBar .options a:nth-child(3)');
 const subSectionsBar = document.createElement('div');
 subSectionsBar.classList.add('sub-sections-bar');
@@ -17,4 +18,4 @@ nosotrosOption.addEventListener('mouseover', () => {
 
 nosotrosOption.addEventListener('mouseout', () => {
     subSectionsBar.remove();
-});
+});*/
