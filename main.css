@@ -99,6 +99,7 @@ section {
     width: 13vw;
     font-size: 0.9vw;
     min-height: 20vw;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

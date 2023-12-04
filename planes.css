@@ -96,7 +96,8 @@
 }
 
 .seccion .card{
-    height: 23vw;
+    min-height: 23vw;
+    height: fit-content;
 }
 
 .card.plan:nth-child(2){
